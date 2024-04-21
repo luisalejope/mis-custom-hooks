@@ -9,7 +9,7 @@ const initialForm = {
     password: ""
 }
 
-const [values, handleInputChange, reset] = useForm(initialForm);
+const {values, onInputChange, onReset} = useForm(initialForm);
 ```
 
 initialform es una constante que puede tener cualquier nombre y contener un solo objeto con disitintos atributos
